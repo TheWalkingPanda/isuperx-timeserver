@@ -7,6 +7,7 @@ import java.io.PrintWriter;
 import java.net.Socket;
 
 public class TimeClient {
+	
 	public static void main(String[] args) {
 		int port = 8080;
 		if(args!=null && args.length>0){
